@@ -98,14 +98,12 @@ class AdapterAreaSquare {
 /**
  * Вычисления площади круга через длину окружности:
  */
-$circumference = 5;
 $areaCircle = new AdapterAreaCircle();
 $areaCircle->adapterCircleArea($circumference);
 
 /**
  * Вычисления площади квадрата через его сторону:
  */
-$sideSquare = 5;
 $areaSquare = new AdapterAreaSquare();
 $$areaSquare->adapterSquareArea($sideSquare);
 
